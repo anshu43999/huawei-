@@ -1,0 +1,270 @@
+/* 清除默认样式 开始 */
+body,p{
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    margin: 0;
+}
+
+li{
+    list-style:none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+/* 清除默认样式  结束*/
+
+
+#ad{
+    width: 100%;
+}
+
+/*  header 开始 */
+.header{
+    background-color: #2e2828;
+    height: 36px;
+    line-height: 36px;
+}
+
+.header .content{
+    width: 1200px;
+    height: 36px;
+    margin: 0 auto;
+}
+.header .content .content_left{
+    float: left;
+ 
+}
+.header .content .content_left a{
+    color: #afafaf;
+    text-decoration:none;
+    font-size: 14px;
+}
+.header .content .content_left span{
+    color: #414141;
+}
+
+.header .content .content_right{
+    float: right;
+}
+.header .content .content_right a{
+    color: #afafaf;
+    text-decoration: none;
+    font-size: 14px;
+}
+.header .content .content_right span{
+    color: #414141;
+}
+
+/* header  结束 */
+
+
+/* logo 开始 */
+.logoWrap{
+    width: 1200px;
+    margin: 0 auto;
+    height: 41px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    /* background-color: red; */
+}
+.logoWrap .logoWrap_left img{
+    float: left;
+}
+
+.logoWrap .logoWrap_left ul li{
+    float: left;
+    line-height: 41px;
+    margin-right: 24px;
+}
+
+
+/* logo 结束 */
+
+
+
+
+
+
+/* banner 开始 */
+.banner{
+    height: 550px;
+    background: url("../images/banner1.png");
+
+}
+
+
+
+
+/* banner 结束 */
+
+
+
+/* home start */
+.home{
+    width: 1200px;
+    height: 88px;
+    margin: 0 auto;
+    border: 1px solid #aabbcc;
+    border-radius: 10px;
+    margin-top: -88px;
+}
+.home .home_left{
+    float: left;
+    width: 244px;
+    height: 52px;
+    padding-left: 26px;
+    background-color: aqua;
+    margin-top: 16px;
+    border-right: 1px solid #eee;
+}
+.home .home_left img{
+    float: left;
+    width: 52px;
+}
+.home .home_left .portrait{
+    float: right;
+}
+.home .home_left .portrait .portrait_top{
+    color: #999;
+    font-size: 14px;
+}
+.home .home_left .portrait .portrait_top a{
+    color: #333;
+}
+.home .home_left .portrait .portrait_bottom{
+    font-size:14px ;
+    margin-top: 6px;
+}
+.home .home_left .portrait .portrait_bottom .span1{
+    color: #de5b60;
+    border: 1px solid #de5b60 ;
+    padding: 0 4px;
+    border-radius: 5px;
+}
+.home .home_left .portrait .portrait_bottom .span2{
+    background: #595454;
+    color: #fde4b3;
+    padding: 0 4px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.home .home_center{
+    float: left;
+    width: 660px;
+    height: 64px;
+    margin-top: 17px;
+    /* background-color: blue; */
+}
+
+.home .home_center ul li{
+    float: left;
+}
+.home .home_center ul li div{
+    width: 40px;
+    height: 40px;
+    margin: 0 22px;
+    /* 超出隐藏 */
+    overflow: hidden;  
+}
+.home .home_center ul li div img{
+    height: 40px;
+}
+
+
+
+
+.home .home_right{
+    float: left;
+    width: 267px;
+    height: 88px;
+    background-color: pink;
+}
+
+
+
+
+
+
+/* home end */
+
+
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hotShop{
+ 
+   
+}
+
+.hotShop h2{
+    height: 26px;
+    line-height: 26px;
+    padding: 27px 0 13px 0;
+    font-weight: 400;
+    
+}
+.hotShop .shopList{
+    height: 604px;
+}
+
+.hotShop .shopList .shopList_left{
+    float: left;
+}
+.hotShop .shopList .shopList_left img{
+    display: block;
+    width: 230px;
+    height: 592px;
+
+}
+
+.hotShop .shopList .shopList_right{
+    float: right;
+    width: 968px;
+    height: 604px;
+ 
+}
+.hotShop .shopList .shopList_right .goods{
+    float: left;
+    width: 230px;
+    height: 290px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin: 0 0 12px 12px;
+    overflow: hidden;
+}
+.hotShop .shopList .shopList_right .goods img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin:  35px auto 0;
+    
+}
+.hotShop .shopList .shopList_right .goods p{
+    /* 文字居中 */
+    text-align: center;
+    margin:  2px 20px 7px  ; 
+    height: 21px;
+    line-height: 21px;
+    font-size: 14px; 
+}
